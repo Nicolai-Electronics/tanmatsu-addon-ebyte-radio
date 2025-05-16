@@ -9871,7 +9871,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "46a2f227-f4d9-4d0a-ae8f-cccec94ae9a4")
 		(property "Reference" "U1"
 			(at 104.14 20.32 0)
@@ -11500,9 +11500,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7f4f2f71-9e51-4520-b054-557931834e44")
 		(property "Reference" "C1"
 			(at 23.876 44.704 0)
@@ -11672,9 +11672,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8a6805d6-f241-4ef3-bbdf-0d041f4f568c")
 		(property "Reference" "R3"
 			(at 31.75 52.07 0)
@@ -12121,7 +12121,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9f570632-be1b-4133-a140-f5ab06f95705")
 		(property "Reference" "U4"
 			(at 104.14 78.74 0)
@@ -14112,9 +14112,9 @@
 		(at 50.8 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e3e4276b-5f6a-4dc3-8d4f-8359156a8c75")
 		(property "Reference" "U2"
 			(at 55.372 37.846 0)
