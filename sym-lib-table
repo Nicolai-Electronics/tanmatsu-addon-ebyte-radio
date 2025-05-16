@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "WIRELM-SMD_E22-900M22S")(type "KiCad")(uri "${KIPRJMOD}/library/WIRELM-SMD_E22-900M22S.kicad_sym")(options "")(descr ""))
+)
