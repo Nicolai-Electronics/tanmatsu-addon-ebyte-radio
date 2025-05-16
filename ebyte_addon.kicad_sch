@@ -9,6 +9,8 @@
 		(date "2025-05-16")
 		(rev "0.1")
 		(company "Nicolai Electronics")
+		(comment 1 "License: CERN-OHL-P")
+		(comment 2 "Copyright © 2025 Nicolai Electronics")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1GU04"
@@ -4032,6 +4034,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Inverter on RX and TX enable is required for\nLoRa modules, on CC1101 modules the RX and TX\nenable pins are not connected, as a result the\ninverter may be left unnpopulated. This is\nwhy U2 and relating components are marked DNP."
+		(exclude_from_sim no)
+		(at 231.394 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2744b5ae-56a8-4983-bbe4-f534c08a3d09")
+	)
 	(text "Compatible with:\nE07-900M10S\nE07-400M10S\nE22-900M22S\nE22-400M22S"
 		(exclude_from_sim no)
 		(at 268.224 154.94 0)
@@ -4041,6 +4054,39 @@
 			)
 		)
 		(uuid "64de093a-bc50-40aa-94f1-c13b0768647b")
+	)
+	(text "Left empty, user can\nsolder in any of the\nsupported modules"
+		(exclude_from_sim no)
+		(at 91.694 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6f5c6566-b325-443f-8550-7f0e899eb3a2")
+	)
+	(text "Populated with:\nLoRa 433MHz module"
+		(exclude_from_sim no)
+		(at 91.948 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9d01335e-2bfd-4444-bb4a-0cbcdf615393")
+	)
+	(text "Populated with:\nCC1101 433MHz module"
+		(exclude_from_sim no)
+		(at 91.44 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e9c08e26-fb83-4e6a-8682-d838b6dc55d9")
 	)
 	(junction
 		(at 124.46 93.98)
